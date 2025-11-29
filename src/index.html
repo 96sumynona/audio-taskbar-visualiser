@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EQ Visualization</title>
+    <style>
+        body {
+            background-color: #1F101E;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        #audioData {
+            position: absolute;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 50px;
+            height: auto;
+            width: auto;
+            white-space: nowrap;
+        }
+
+        canvas {
+            position: absolute;
+            left: 0;
+        }
+
+        #topCanvas {
+            top: 0;
+        }
+
+        #bottomCanvas {
+            bottom: 0;
+        }
+
+        #backgroundImg {
+            object-fit: cover;
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 99vh;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="console"></div>
+    <img id="backgroundImg" src=""></img>
+    <canvas id="topCanvas"></canvas>
+    <canvas id="bottomCanvas"></canvas>
+    <script src="js/script.js"></script>
+    <div id="audioData"></div>
+</body>
+
+</html>

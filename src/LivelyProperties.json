@@ -1,0 +1,169 @@
+{
+  "color1": {
+    "text": "Start colour",
+    "type": "color",
+    "value": "#FFD100"
+  },
+  "color2": {
+    "text": "End colour",
+    "type": "color",
+    "value": "#00FFD6"
+  },
+  "reverse": {
+    "text": "Reverse colour gradient",
+    "type": "checkbox",
+    "value": "false"
+  },
+  "background": {
+    "text": "Background colour",
+    "type": "color",
+    "value": "#0B0D23"
+  },
+  "tbColour": {
+    "text": "Taskbar colour",
+    "type": "color",
+    "value": "#210F1E"
+  },
+  "tbDimming": {
+    "text": "Taskbar dimming",
+    "type": "slider",
+    "min": 0.0,
+    "max": 1.0,
+    "step": 0.01,
+    "value": 0.1
+  },
+  "frameSpread": {
+    "text": "Bottom spread (frames sampled)",
+    "type": "slider",
+    "min": 1,
+    "max": 32,
+    "step": 1,
+    "value": 2
+  },
+  "bufferLength": {
+    "text": "Time buffer length (frames)",
+    "type": "slider",
+    "min": 8,
+    "max": 240,
+    "step": 1,
+    "value": 128
+  },
+  "sustainMix": {
+    "text": "Sustain mix (0.1)",
+    "type": "slider",
+    "min": 0.0,
+    "max": 1.0,
+    "step": 0.01,
+    "value": 0.75
+  },
+  "speed": {
+    "text": "Drift speed (pixels/frame)",
+    "type": "slider",
+    "min": 0.1,
+    "max": 30,
+    "step": 0.1,
+    "value": 14.0
+  },
+  "decayFactor": {
+    "text": "EQ decay factor",
+    "type": "slider",
+    "min": 0.5,
+    "max": 0.9,
+    "step": 0.001,
+    "value": 0.75
+  },
+  "bloomMultiplier": {
+    "text": "Bloom multiplier",
+    "type": "slider",
+    "min": 0,
+    "max": 3,
+    "step": 0.1,
+    "value": 0.7
+  },
+  "bloomStrength": {
+    "text": "Bloom strength",
+    "type": "slider",
+    "min": 0.1,
+    "max": 5,
+    "step": 0.1,
+    "value": 0.3
+  },
+  "ampPower": {
+    "text": "Amplitude Power",
+    "type": "slider",
+    "min": 0.5,
+    "max": 5.0,
+    "step": 0.005,
+    "value": 1.16
+  },
+  "verticalFadePower": {
+    "text": "Vertical fade power",
+    "type": "slider",
+    "min": 0.1,
+    "max": 4,
+    "step": 0.1,
+    "value": 2.2
+  },
+  "bottomHeight": {
+    "text": "Bottom visual height (px)",
+    "type": "slider",
+    "min": 8,
+    "max": 100,
+    "step": 1,
+    "value": 41
+  },
+  "topEnabled": {
+    "text": "Top visualiser enabled",
+    "type": "checkbox",
+    "value": true
+  },
+  "topType": {
+    "text": "Top visualiser type",
+    "type": "dropdown",
+    "items": [
+      "Bars",
+      "Wave"
+    ],
+    "value": 0
+  },
+  "opacity": {
+    "text": "Top bars opacity",
+    "type": "slider",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "value": 100
+  },
+  "amplitude": {
+    "text": "Top bars amplitude",
+    "type": "slider",
+    "min": 16,
+    "max": 1000,
+    "step": 1,
+    "value": 743
+  },
+  "topSamples": {
+    "text": "Top bars samples",
+    "type": "slider",
+    "min": 16,
+    "max": 128,
+    "step": 1,
+    "value": 128
+  },
+  "topBarSpacing": {
+    "text": "Top bars spacing (px)",
+    "type": "slider",
+    "min": 0,
+    "max": 5,
+    "step": 1,
+    "value": 2
+  },
+  "topBarSmoothing": {
+    "text": "Top bars smoothing (0..1)",
+    "type": "slider",
+    "min": 0.0,
+    "max": 1.0,
+    "step": 0.01,
+    "value": 0.5
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "AppVersion": "9.9.9",
+  "Title": "Taskbar Visualiser",
+  "Thumbnail": "lively_t.png",
+  "Preview": "lively_p.gif",
+  "Desc": "Displays an audio visualiser of the currently playing system sounds in the taskbar",
+  "Author": "sumynona",
+  "License": "LICENCE.txt",
+  "Contact": "https://discordapp.com/users/1261007031301836900",
+  "Type": 2,
+  "FileName": "index.html",
+  "Arguments": null,
+  "IsAbsolutePath": false
+}
+
