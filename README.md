@@ -11,17 +11,34 @@ Lively Wallpaper Music wallpaper - to be used with TranslucentTB
 Just download [visualiser.zip](visualiser.zip) and drag it into the Lively Wallpapers window to install, customisation is available in the app.
 
 ## Configuration:
-<div style="display: flex; align-items: flex-start; gap: 16px;">
+![](config.png)
 
-  <img src="config.png" alt="configuration screenshot" width="300"/>
+### Colours
+* **Start/End colour** — sets start and end gradient colours. 
+* **Reverse colour gradient** — flips the colour gradient direction - uses HSV colour blending. 
+* **Background colour** — main wallpaper background colour behind the graphic equaliser. 
+* **Taskbar colour** — taskbar colour displayed behind the visualiser. 
+* **Taskbar dimming** — dims the visualiser in order to keep UI icons on the taskbar legible. 
 
-  <div>
-    <h3>configuration options</h3>
-    <p>
-      customise the wallpaper's behaviour inside Lively Wallpapers using the settings shown here.  
-      adjust colours, speed, styles, and appearance of the taskbar visualiser.  
-      options update in real-time while the wallpaper runs.
-    </p>
-  </div>
+### bottom visualiser (GPU EQ)
 
-</div>
+* **Bottom spread (frames sampled)** — how much neighbouring pixels affects its neighbours - creates a smoother blend. 
+* **Time buffer length (frames)** — Lower values = less memory usage, Higher values = pulses last longer before being cut off. 
+* **Sustain mix** — how much of the previous amplitude is kept when calculating delta frames - lower values = extended beats have more energy. 
+* **Drift speed (pixels/frame)** — how fast the colours drift sideways across the taskbar. 
+* **EQ decay factor** — how quickly the pulses fade out. 
+* **Bloom multiplier** — boosts the raw visualiser intensity. 
+* **Bloom strength** — how strongly bright areas bleed into white. 
+* **Amplitude power** — non-linear scaling for pulse intensity (higher = more contrast). 
+* **Vertical fade power** — how quickly the bottom fade transitions into the taskbar. 
+* **Bottom visual height (px)** — height of the bottom visualiser - set to the same height or slightly smaller than your taskbar. 
+
+### top visualiser (bars or wave)
+
+* **Top visualiser enabled** — toggles the top section on/off. 
+* **Top visualiser type** — choose between Bars mode or Wave mode. 
+* **Top bars opacity** — transparency of the top visualiser. 
+* **Top bars amplitude** — height scale of the top bars/wave. 
+* **Top bars samples** — number of bars/points drawn (resolution). 
+* **Top bars spacing (px)** — gap between top bars (only in Bars mode). 
+* **Top bars smoothing (0..1)** — how much the top visualiser is smoothed to prevent jittery movements. 
